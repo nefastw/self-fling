@@ -87,11 +87,11 @@ local function ShowNotification(msg)
     label.Text = msg
     label.Parent = gui
 
-    -- Remove após alguns segundos
+    -- esse lixo some depois de alguns segundos
     task.delay(3, function()
         gui:Destroy()
     end)
 end
 
--- Mostra notificação quando script estiver pronto
+-- mostra qunado tá pronto fodase
 ShowNotification("✅ Script pronto! @nefastw")
