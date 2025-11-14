@@ -94,4 +94,4 @@ local function ShowNotification(msg)
 end
 
 -- Mostra notificação quando script estiver pronto
-ShowNotification("✅ Script pronto para usar!")
+ShowNotification("✅ Script pronto! @nefastw")
